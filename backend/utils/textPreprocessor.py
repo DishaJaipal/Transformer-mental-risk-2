@@ -2,7 +2,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
+from nltk import WordNetLemmatizer
 import pandas as pd
 from typing import List, Dict
 

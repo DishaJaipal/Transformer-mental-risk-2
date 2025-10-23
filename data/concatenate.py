@@ -10,7 +10,7 @@ def prepare_data():
     script_path = os.path.abspath(__file__)
     script_dir = os.path.dirname(script_path)
     project_root = os.path.dirname(script_dir)
-    data_dir = os.path.join(project_root, "data")
+    data_dir = os.path.join(project_root, "datasets")
     os.makedirs(data_dir, exist_ok=True)
 
     # Load raw datasets
