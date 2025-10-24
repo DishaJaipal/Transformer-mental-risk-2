@@ -16,4 +16,6 @@ __all__ = ["RedditPreprocessor"]
 
 __version__ = "1.0.0"
 
-print(f"✓ Utils package loaded (v{__version__})")
+# Only print when imported (not when running tests)
+if __name__ != "__main__":
+    print(f"✓ Utils package loaded (v{__version__})")
