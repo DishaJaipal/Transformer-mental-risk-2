@@ -33,30 +33,30 @@ from backend.app.services.embeddings_service import EmbeddingService
 
 # ============= MODELS TO COMPARE =============
 MODELS_TO_COMPARE = {
-    # "deproberta-large": {
-    #     "name": "rafalposwiata/deproberta-large-depression",
-    #     "batch_size": 4,  # Large model - small batch
-    #     "desc": "DepRoBERTa Large (Depression Specialized)",
-    #     "reference": "Poswiata et al. 2022",
-    # },
-    # "distilbert-sst2": {
-    #     "name": "distilbert-base-uncased-finetuned-sst-2-english",
-    #     "batch_size": 32,  # Small model - large batch
-    #     "desc": "DistilBERT SST-2 (Sentiment Analysis)",
-    #     "reference": "Sanh et al. 2019",
-    # },
-    # "bert-base": {
-    #     "name": "bert-base-uncased",
-    #     "batch_size": 16,
-    #     "desc": "BERT Base (General Purpose)",
-    #     "reference": "Devlin et al. 2019",
-    # },
-    # "roberta-base": {
-    #     "name": "roberta-base",
-    #     "batch_size": 16,
-    #     "desc": "RoBERTa Base (General Purpose)",
-    #     "reference": "Liu et al. 2019",
-    # },
+    "deproberta-large": {
+        "name": "rafalposwiata/deproberta-large-depression",
+        "batch_size": 4,  # Large model - small batch
+        "desc": "DepRoBERTa Large (Depression Specialized)",
+        "reference": "Poswiata et al. 2022",
+    },
+    "distilbert-sst2": {
+        "name": "distilbert-base-uncased-finetuned-sst-2-english",
+        "batch_size": 32,  # Small model - large batch
+        "desc": "DistilBERT SST-2 (Sentiment Analysis)",
+        "reference": "Sanh et al. 2019",
+    },
+    "bert-base": {
+        "name": "bert-base-uncased",
+        "batch_size": 16,
+        "desc": "BERT Base (General Purpose)",
+        "reference": "Devlin et al. 2019",
+    },
+    "roberta-base": {
+        "name": "roberta-base",
+        "batch_size": 16,
+        "desc": "RoBERTa Base (General Purpose)",
+        "reference": "Liu et al. 2019",
+    },
     "distilroberta": {
         "name": "distilroberta-base",
         "batch_size": 32,
